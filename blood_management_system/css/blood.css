@@ -1,0 +1,629 @@
+.header{height:140px;width:100%;position: fixed;background-color: #fff;z-index: 2;}
+.iconset{height: 120px;width: 180px;padding-top: 10px;padding-left: 20px;}
+.iconset img{width: 100%;height: 100%;}
+.title{padding-top: 20px;padding-left: 73px;}
+.main_menu{margin-left: 0px;}
+.main_menu li{	display:inline-block;margin-top: 20px;position: relative;}
+.main_menu li a{display:block;text-decoration:none;padding:10px 37px 7px 37px; color:#1B4F72;font-weight:bold;
+	letter-spacing:1px;}
+.main_menu li a:hover{background-color: #cc0000;color:#fff;transition: .4s;border-radius: 10px;}
+.mob_main_menu, .menu_icon{display:none;}
+.title .heading1{color: #fff;font-size: 24px;color:#CC0000;float: left;}
+.title li{display: inline-block;list-style-type: none;background-color: #cc0000;border-radius: 10px;
+	padding-top:5px;padding-left: 30px;margin-left: 30px;}
+.title li a{text-decoration: none; color:#fff;display: block;position: relative;height: 30px;width: 100px;padding-left: 14px;padding-top: 4px;}
+
+
+/*slider*/
+.slider{height: 400px;background-color: #ccc;margin-top: 140px;width: 750px;}
+.mobimage{display: none;}
+
+
+.campn{margin:20px;overflow: auto;}
+.camp{height:400px;margin-top: 140px;width: 350px;border:1px solid #F2DEDE;border-radius: 5px;}
+.camph{padding-top: 10px;padding-left: 50px;font-size: 15px;height: 97px;background-color: #f2dede;z-index: 2;color:#cc0000;}
+
+.camph li{padding-top: 4px;margin-left: -44px !important;text-decoration: none;height: 30px;display: inline-block;
+background-color: #cc0000;border-radius: 10px;margin-top: 10px;width: 260px;}
+.camph li a{color: #fff;text-decoration: none;display: block;margin-left: 50px;}
+
+.con{height: 300px;width: 270px;margin-top: 30px;margin-left: 14px;float: left;border:1px solid #F2DEDE;border-radius: 5px;}
+.conh{height: 50px;background-color: #f2dede;z-index: 2;padding-top: 15px;padding-left: 70px;color: #cc0000;}
+.contab{height: 400px;margin-top: 30px;border:1px solid #F2DEDE;border-radius: 5px;width: 848px;}
+.cont{height: 50px;background-color: #f2dede;z-index: 2;padding-top: 15px;padding-left: 350px;color:#cc0000;}
+.footer{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+.con li{display: block;background-color: #555;}
+.con li a{display: block;height: 34px;color:#fff;margin-top: 5px; text-decoration: none;line-height: 34px;text-align: center;}
+.con li:nth-child(1)
+{
+	margin-top: 10px;
+}
+/*table regis*/
+.dd{margin-top: 230px;}
+.footerbanktab{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+
+
+
+.lgtype{height:30px;position: absolute;margin-left: 300px;width: 300px;}
+
+/*admin*/
+
+.admin{height: 60px;background-color: #F2DEDE;width: 100%;}
+.admin span{padding-left: 100px;color:#cc0000;font-size: 20px;}
+.ad{height: 300px;width: 100%;background-color: #ccc;margin-top: 190px;border:1px solid #F2DEDE;background-color: #fff;border-radius: 10px;}
+.name{padding-left: 100px;font-size: 15px;}
+.password{padding-left: 100px;font-size: 15px;}
+.user{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 100px;border-color: #f2dede;}
+.pass{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 100px;border-color: #f2dede;}
+.btn{padding-left: 100px;margin-left: 100px;margin-top: 10px;background-color:#f2dede;color:#cc0000;}
+.adminfoot{margin-left: 60px;}
+.adminforget li{margin-left: 430px;font-style: italic;text-decoration: none;display: inline-block;}
+.adminforget li a{color:#cc0000;text-decoration:none;list-style-type: none;margin-top: -40px !important;position: absolute;}
+
+.fortype{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 300px;border-color: #f2dede;}
+.forbtn{margin-left: 300px;height:30px;width:150px;color:#fff;background-color: #cc0000;outline: none;border-radius: 5px;}
+
+
+/*regis details*/
+.regis{height: 580px;width: 100%;background-color: #f2dede;margin-top: 150px;}
+.odiv{height:100px;padding-top: 20px;}
+.sdiv{height:100px;padding-top: 20px;}
+.tdiv{height:130px;padding-top: 10px;}
+.fdiv{height:100px;padding-top: 20px;}
+.fidiv{height:80px;padding-top: 20px;}
+.donorname span{padding-left: 40px;position: relative;color:#cc0000;}
+.rname{height: 35px;position: absolute;margin-top: 30px;margin-left: -118px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.gender span{padding-left: 10px;position: relative; color:#cc0000;}
+.radioreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -58px;border-radius: 3px;width: 200px;}
+.birth span{padding-left: 10px;position: relative;color:#cc0000;}
+.datereg{height: 35px;position: absolute;margin-top: 30px;margin-left: -103px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.email span{padding-left: 40px;position: relative;color:#cc0000;}
+.emailreg{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -40px;padding-left: 10px;}
+.district span{padding-left: 10px;position: relative;color:#cc0000;}
+.districtreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -30px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mob span{padding-left: 10px;position: relative;color:#cc0000;}
+.mobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -75px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.address span{padding-left: 43px;position: relative;color:#cc0000;}
+.addressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -65px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.group span{padding-left: 104px;position: relative;color:#cc0000;}
+.groupreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -100px;border-radius: 3px;width: 200px;padding-left: 10px;}
+
+.dodate span{padding-left: 24px;position: relative;color:#cc0000;}
+.donationreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -165px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mdono span{padding-left: 24px;position: relative;color:#cc0000;}
+.optionreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -160px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.reminder span{padding-left: 34px;position: relative;color:#cc0000;}
+.reminderreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -140px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.areaset{height:35px;position: absolute;margin-top: 30px;margin-left: -40px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.area span{padding-left: 14px;position: relative;color:#cc0000;}
+.regtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+.footerregistration{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+
+.donorlogin li{text-decoration: none;list-style-type: none; background-color: #cc0000;width: 150px;
+height: 35px;margin-left: 17px;border-radius: 3px;display: inline-block;}
+.donorlogin li a{text-decoration: none;color: #fff;display: block;padding-top: 8px;padding-left: 38px;}
+
+/*camp regis*/
+
+
+.campde{height: 420px;width: 100%;background-color: #f2dede;margin-top: 150px;}
+.odivc{height:100px;padding-top: 20px;}
+.sdivc{height:100px;padding-top: 20px;}
+.tdivc{height:130px;padding-top: 10px;}
+/*.fdivc{height:100px;padding-top: 20px;}*/
+.fidivc{height:80px;padding-top: 20px;}
+.campname span{padding-left: 30px;position: relative;color:#cc0000;}
+.orgname{height: 35px;position: absolute;margin-top: 30px;margin-left: -150px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.campven span{padding-left: 10px;position: relative; color:#cc0000;}
+.campvendate{height: 35px;position: absolute;margin-top: 30px;margin-left: -88px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campregdate span{padding-left: 10px;position: relative;color:#cc0000;}
+.dateregcamp{height: 35px;position: absolute;margin-top: 30px;margin-left: -133px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campemail span{padding-left:37px;position: relative;color:#cc0000;}
+.campemailreg{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -87px;padding-left: 10px;}
+.campdistrict span{padding-left: 10px;position: relative;color:#cc0000;}
+.campdistrictreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -29px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campmob span{padding-left: 10px;position: relative;color:#cc0000;}
+.campmobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campaddress span{padding-left: 43px;position: relative;color:#cc0000;}
+.campaddressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -150px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.camptime span{padding-left: 106px;position: relative;color:#cc0000;}
+.camptimeclass{height: 35px;position: absolute;margin-top: 30px;margin-left: -80px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campregtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+
+/*
+.dodate span{padding-left: 44px;position: relative;color:#cc0000;}
+.donationreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -165px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mdono span{padding-left: 74px;position: relative;color:#cc0000;}
+.optionreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -160px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.reminder span{padding-left: 104px;position: relative;color:#cc0000;}
+.reminderreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -140px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.regtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+.footerregistration{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+*/
+
+/*recipient reg*/
+.donorname span{padding-left: 40px;position: relative;color:#cc0000;}
+.reciname{height: 35px;position: absolute;margin-top: 30px;margin-left: -140px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.gender span{padding-left: 10px;position: relative; color:#cc0000;}
+.radioreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -138px;border-radius: 3px;width: 200px;}
+.relation span{padding-left: 10px;position: relative;color:#cc0000;}
+.relationset{height: 35px;position: absolute;margin-top: 30px;margin-left: -70px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.patientname span{padding-left: 40px;position: relative;color:#cc0000;}
+.pname{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -100px;padding-left: 10px;}
+.district span{padding-left: 10px;position: relative;color:#cc0000;}
+.districtreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -30px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mob span{padding-left: 10px;position: relative;color:#cc0000;}
+.mobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -75px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.address span{padding-left: 43px;position: relative;color:#cc0000;}
+.addressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -65px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.group span{padding-left: 104px;position: relative;color:#cc0000;}
+.groupreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -100px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.docname span{padding-left: 55px;position: relative;color:#cc0000;}
+.setdoc{height: 35px;position: absolute;margin-top: 30px;margin-left: -130px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.hosname span{padding-left:0px;position: relative;color:#cc0000;margin-top: -30px;position: absolute;}
+
+.sethos{height: 35px;position: absolute;margin-top: 0px;margin-left: 4px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.regtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;margin-top: 40px;}
+.footerregistration{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+
+
+
+/*hospital reg*/
+
+.hospitalde{height: 480px;width: 100%;background-color: #f2dede;margin-top: 150px;}
+.odivh{height:100px;padding-top: 20px;}
+.sdivh{height:100px;padding-top: 20px;}
+.tdivh{height:130px;padding-top: 10px;}
+/*.fdivc{height:100px;padding-top: 20px;}*/
+.fidivh{height:80px;padding-top: 20px;}
+.hospitalname span{padding-left: 36px;padding-top: 0px!important; position: absolute; color:#cc0000;}
+.hosname{height: 35px;position: absolute;margin-top: 30px !important;margin-left: 35px;border-radius: 3px;width: 460px;padding-left: 10px;}
+/*.campven span{padding-left: 10px;position: relative; color:#cc0000;}
+.campvendate{height: 35px;position: absolute;margin-top: 30px;margin-left: -88px;border-radius: 3px;width: 200px;padding-left: 10px;}
+*/
+.hosregdate span{padding-left: 10px;position: relative;color:#cc0000;}
+.hosdateregcamp{height: 35px;position: absolute;margin-top: 30px;margin-left: -43px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.hosemail span{padding-left:37px;position: relative;color:#cc0000;}
+.hosemailreg{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -43px;padding-left: 10px;}
+.hosdistrict span{padding-left: 10px;position: relative;color:#cc0000;}
+.hosdistrictreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -29px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.hosmob span{padding-left: 10px;position: relative;color:#cc0000;}
+.hosmobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 300px;padding-left: 10px;}
+.hosaddress span{padding-left: 43px;position: relative;color:#cc0000;}
+.hosaddressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -70px;border-radius: 3px;width: 750px;padding-left: 10px;}
+/*.camptime span{padding-left: 106px;position: relative;color:#cc0000;}
+.camptimeclass{height: 35px;position: absolute;margin-top: 30px;margin-left: -80px;border-radius: 3px;width: 200px;padding-left: 10px;}
+*/
+.hosregtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+.hospitallogin li{text-decoration: none;list-style-type: none; background-color: #cc0000;width: 150px;
+height: 35px;margin-left: 10px;border-radius: 3px;display: inline-block;}
+.hospitallogin li a{text-decoration: none;color: #fff;display: block;padding-top: 8px;padding-left: 30px;}
+
+
+/*organization*/
+
+
+.orgde{height: 480px;width: 100%;background-color: #f2dede;margin-top: 150px;}
+.orgdivh{height:100px;padding-top: 20px;}
+.sorgdivh{height:100px;padding-top: 20px;}
+.torgdivh{height:130px;padding-top: 10px;}
+/*.fdivc{height:100px;padding-top: 20px;}*/
+.fiorgdivh{height:80px;padding-top: 20px;}
+.orgname span{padding-left: 170px;padding-top: 0px!important; position: absolute; color:#cc0000;}
+.orname{height: 35px;position: absolute;margin-top: 30px !important;margin-left: 170px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.orgemail span{padding-left:37px;position: relative;color:#cc0000;}
+.oremail{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -43px;padding-left: 10px;}
+.orgmob span{padding-left: 10px;position: relative;color:#cc0000;}
+.ormob{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 300px;padding-left: 10px;}
+.orgaddress span{padding-left: 43px;position: relative;color:#cc0000;}
+.oraddress{height: 75px;position: absolute;margin-top: 30px;margin-left: -70px;border-radius: 3px;width: 750px;padding-left: 10px;}
+/*.camptime span{padding-left: 106px;position: relative;color:#cc0000;}
+.camptimeclass{height: 35px;position: absolute;margin-top: 30px;margin-left: -80px;border-radius: 3px;width: 200px;padding-left: 10px;}
+*/
+.orgtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+
+
+
+/*contact us*/
+
+.contactus{margin-top: 200px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px)
+{
+	#home{display: none;}
+.iconset{height:130px;width: 200px;margin-left: 30px;}
+.mob_main_menu{display:block;margin-top: 20px;padding: 0 !important;}	
+.main_menu{display:none;}
+.slider{margin-top: 200px !important;}
+.mob_main_menu li{	display:block;position:relative;width: 100% !important;}
+.mob_main_menu li a{background-color:rgb(0,0,0,0.5); text-decoration:none;color:#fff;display:block;padding:12px;width: 100%;text-align: center;}
+.setpos{background-color: #fff;height: 100px;}
+.menu_icon{display:block;background-color: #fff;}
+.menu_icon i{padding-top:0px;padding-left:250px;color:#000;font-size:30px !important;position: absolute;margin-top: -73px;}
+.title{padding-left: 0px;background-color: #fff;}
+.title .heading1{font-size: 12px;padding-left: 0px;font-weight: 12px;position: relative;}
+.mob_sub_menu{display:visible;}
+.title li{margin-top: 10px;margin-left: -40px;width: 120px;}
+
+
+.lgtype{height:30px;position: absolute;margin-left: 10px;width: 260px;}
+/*.slider{width: 285px;height: 250px;margin-top: 240px !important;}
+*/
+.slider{display: none;}
+.mobimage{display:block !important;height: 240px;width: 300px;margin-top: 240px;}
+.mobimage img{width: 100%;height: 100%;}
+.camp{margin-top: 20px;margin-left: 3px;width: 285px;height: 300px;}
+.camph{padding-left: 16px;}
+.camph ul{width: 260px;margin-left: -5px !important;}
+.camph li{margin-left: -26px !important;}
+
+.con{height: 280px;width: 284px;margin-top:40px;margin-left: 20px;}
+.conh{padding-left: 83px;}
+.contab{position: absolute;width: 284px;margin-top: 350px;}
+.cont{padding-left: 70px;}
+.ddtab{margin-top: 20px;}
+.con li a{height: 30px;line-height: 30px;}
+
+
+.footer{margin-top: 480px;height: 90px;}
+
+
+/*blooddetail*/
+.dd{margin-top: 250px;}
+.footerbanktab{height: 90px;}
+
+
+.fortype{margin-left: 10px;width:250px;}
+.forbtn{margin-left: 10px;}
+/*recipient reg*/
+
+.donorname span{padding-left: 40px;position: relative;color:#cc0000;}
+.reciname{height: 35px;position: absolute;margin-top: 30px;margin-left: -138px;border-radius: 3px;width: 260px;padding-left: 10px;}
+.relation span{margin-top: 140px;position: absolute;color:#cc0000;}
+.relationset{margin-left: 10px;width: 260px;margin-top: 170px;}
+.gender span{margin-top: 40px;position: absolute;color:#cc0000;}
+.radioreg{margin-left: -55px;width: 260px;}
+
+
+.patientname span{padding-left: 10px;}
+.pname{width: 260px;}
+
+.docname span{padding-left: 10px;}
+.setdoc{width: 260px;}
+.hosname span{margin-left: -8px;position: absolute;margin-top: 40px;}
+.sethos{width: 260px;position: absolute;margin-left: -12px;margin-top: 70px;}
+.regtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;margin-top: 40px;}
+.footerregistration{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 8px;color:#cc0000;}
+
+
+
+
+/*admin*/
+.admin span{padding-left: 30px;}
+.name{padding-left: 10px;}
+.ad{height:340px;margin-top: 250px;}
+.password{padding-left: 10px;}
+.user{width: 250px;margin-left: 10px;}
+.pass{width: 250px;margin-left: 10px;}
+.btn{margin-left:10px;}
+.adminfoot{margin-left: 20px;}
+.adminforget li{margin-left: 90px;}
+
+
+/*registration*/
+.regis{margin-top: 250px;height: 1180px;}
+.odiv{height:250px;padding-top: 10px;}
+.sdiv{height:250px;padding-top: 5px;}
+.tdiv{height:250px;padding-top: 5px;}
+.fdiv{height:250px;padding-top: 5px;}
+.fidiv{height:80px;padding-top: 10px;}
+.rname{width: 200px;}
+.donorname span{padding-left: 10px;position: relative;}
+.rname{width: 260px;margin-left: -120px;}
+.gender span{padding-left: 10px;position: relative;margin-top: 60px !important;position: absolute;}
+.radioreg{margin-top: 85px;margin-left: 8px;width: 260px;}
+.birth span{padding-left: 10px;position:absolute; margin-top: 140px !important;}
+.datereg{height: 35px;position: absolute;margin-top: 165px;margin-left: 10px;width: 260px;}
+.email span{padding-left: 10px;position: relative;}
+.emailreg{position: absolute;margin-top: 25px;border-radius: 3px;width: 260px;}
+.district span{padding-left: 10px;position:absolute;margin-top: 65px !important;}
+.districtreg{position: absolute;margin-top: 89px;margin-left: 8px;width: 260px;}
+.mob span{position: absolute;margin-top: 150px;}
+.mobreg{position: absolute;margin-top: 180px;width: 260px;padding-left: 10px;margin-left: 8px;}
+.address span{padding-left: 10px;position: relative;color:#cc0000;}
+.addressreg{height: 85px;position:absolute;margin-top: 30px;margin-left: -65px;width: 260px;}
+.group span{padding-left: 10px;position:absolute;margin-top: 100px !important;}
+.groupreg{height: 35px;position: absolute;margin-top: 130px;margin-left: 12px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.dodate span{padding-left: 10px;position: relative;}
+.donationreg{position: absolute;margin-top: 30px;margin-left: -165px;width: 260px;}
+.mdono span{padding-left: 10px;position: absolute;margin-top: 60px !important;}
+.optionreg{position: absolute;margin-top: 90px;margin-left: 12px;width: 260px;}
+.reminder span{padding-left: 10px;position: absolute;margin-top: 135px !important;}
+.reminderreg{position: absolute;margin-top: 160px;margin-left: 12px;width: 260px;}
+.regtable{width: 260px;margin-top: 80px;}
+.footerregistration{height: 90px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+.areaset{margin-top: 240px;margin-left: 10px;width: 260px;}
+.area span{margin-top: 210px;padding-left: 14px; position: absolute;}
+/*camp regis*/
+.campde{margin-top: 250px;height: 750px;}
+.campname span{padding-left: 10px;position: relative;}
+.orgname{width: 260px;}
+.campven span{padding-left: 10px;position: absolute;margin-top: 120px !important;position: absolute;}
+.campvendate{margin-top:145px;margin-left: 10px;width: 260px;}
+.campregdate span{padding-left: 10px;position:absolute; margin-top: 50px !important;}
+.dateregcamp{height: 35px;position: absolute;margin-top: 80px;margin-left: 10px;width: 260px;}
+.campemail span{padding-left: 10px;position: absolute;margin-top:120px !important; }
+.campemailreg{position: absolute;margin-top: 148px;border-radius: 3px;width: 260px;margin-left: 10px;}
+.campdistrict span{padding-left: 10px;position:absolute;margin-top: 195px !important;}
+.campdistrictreg{position: absolute;margin-top: 220px;margin-left: 8px;width: 260px;}
+.campmob span{position: absolute;margin-top: 270px;}
+.campmobreg{position: absolute;margin-top: 295px;width: 260px;padding-left: 10px;margin-left: 8px;}
+.campaddress span{padding-left: 10px;position: absolute;color:#cc0000;margin-top: 260px;}
+.campaddressreg{height: 85px;position:absolute;margin-top: 290px;margin-left: 10px;width: 260px;}
+.camptime span{margin-top: 370px;position: absolute;margin-left: -95px;}
+.camptimeclass{position: absolute;margin-top:400px;margin-left: 15px;width: 260px; }
+.campregtable{width: 260px;margin-top: 340px;}
+
+
+
+/*hospital reg*/
+.hospitalde{margin-top:250px;height: 740px;}
+.hospitalname span{padding-left: 10px;margin-top: -7px;}
+.hosname{width: 260px;margin-left: 10px;margin-top: 16px !important;}
+.hosregdate span{margin-top: 55px;position: absolute;}
+.hosdateregcamp{width: 260px;margin-top: 80px;position: absolute;margin-left: 10px;}
+.hosemail span{margin-top: 45px;position: absolute;padding-left: 10px;}
+.hosemailreg{width: 270px;margin-top: 70px;margin-left: 10px;width: 260px;}
+.hosdistrictreg{margin-top: 140px;margin-left: 10px;width: 260px;}
+.hosdistrict span{position: absolute;margin-top: 120px;padding-left: 10px;}
+.hosmob span{margin-top: 190px;position: absolute;padding-left: 10px;}
+.hosmobreg{width: 150px;margin-top: 210px;margin-left: 10px;width: 260px;}
+.hosaddress span{position: absolute;margin-top: 172px;padding-left: 10px;}
+.hosaddressreg{width: 560px;margin-top:195px;width: 260px;margin-left: 10px;height: 130px;}
+.hosregtable{margin-top:250px; }
+.adhos{margin-top: 270px;}
+.adcamp{margin-top: 270px;}
+.addon{margin-top: 270px;}
+
+/*org*/
+.orgde{margin-top:250px;height: 740px;}
+.orgname span{padding-left: 150px;margin-top: -7px;}
+.orname{width: 260px;margin-left: 150px;margin-top: 16px !important;}
+.orgemail span{margin-top: 45px;position: absolute;padding-left: 10px;}
+.oremail{width: 270px;margin-top: 70px;margin-left: 10px;width: 260px;}
+.orgmob span{margin-top: 150px;position: absolute;padding-left: 10px;}
+.ormob{width: 150px;margin-top: 170px;margin-left: 10px;width: 260px;}
+.orgaddress span{position: absolute;margin-top: 172px;padding-left: 10px;}
+.oraddress{width: 560px;margin-top:195px;width: 260px;margin-left: 10px;height: 130px;}
+.orgtable{margin-top:250px; }
+.adhos{margin-top: 270px;}
+.adcamp{margin-top: 270px;}
+.addon{margin-top: 270px;}
+
+/*
+.orgde{height: 480px;width: 100%;background-color: #f2dede;margin-top: 150px;}
+.orgdivh{height:100px;padding-top: 20px;}
+.sorgdivh{height:100px;padding-top: 20px;}
+.torgdivh{height:130px;padding-top: 10px;}
+.fiorgdivh{height:80px;padding-top: 20px;}
+.orgname span{padding-left: 170px;padding-top: 0px!important; position: absolute; color:#cc0000;}
+.orname{height: 35px;position: absolute;margin-top: 30px !important;margin-left: 170px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.orgemail span{padding-left:37px;position: relative;color:#cc0000;}
+.oremail{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -43px;padding-left: 10px;}
+.orgmob span{padding-left: 10px;position: relative;color:#cc0000;}
+.ormob{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.orgaddress span{padding-left: 43px;position: relative;color:#cc0000;}
+.oraddress{height: 75px;position: absolute;margin-top: 30px;margin-left: -70px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.orgtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+*/
+.campmar{height:170px;}
+}
+
+
+
+
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.header{height: 170px;}
+	.main_menu{margin-left: 0px;}	
+				.ico{margin-left: 10px;}
+                .main_menu li{margin-top: 5px;}
+				.main_menu li a{padding:10px 3px; }
+				.title{padding-left: 41px;}
+				.adminfoot{margin-left: 20px;}
+                   .title li{margin-top: 20px;margin-left: 85px;}
+
+
+.slider{width: 720px;position: relative;}
+.dd{margin-top: 180px;}
+
+.camp{margin-top: 590px;position: absolute;margin-left: -380px !important;width: 600px;height: 300px;}
+.camph{padding-left: 170px;font-size: 15px;height: 90px;}
+
+.con{height: 280px;width: 370px;margin-top: 370px;margin-left: 194px;}
+.conh{padding-left: 120px;}
+.contab{position: absolute;width: 720px;}
+.cont{padding-left: 280px;}
+.footer{margin-top: 480px;}
+.con li a{height: 30px;line-height: 30px;}
+/*blood detail*/
+.campmar{height:180px;}
+/*recipient */
+.setdoc{height: 35px;position: absolute;margin-top: 30px;margin-left: -130px;border-radius: 3px;width: 270px;padding-left: 10px;}
+.hosname span{padding-left: 8px;position: absolute;color:#cc0000;margin-top: -30px;}
+.sethos{height: 35px;position: absolute;margin-top: 0px;margin-left: 4px;border-radius: 3px;width: 270px;padding-left: 10px;}
+
+.pname{width: 200px;}
+
+
+
+/*registration*/
+.rname{width: 200px;}
+.regis{height: 600px;margin-top: 180px;}
+.reciname{width: 200px;}
+.gender span{padding-left: 20px;}
+.district span{padding-left: 20px;}
+.emailreg{width: 200px;}
+.addressreg{width: 450px;}
+.group span{padding-left: 142px;}
+.mdono span{padding-left: 20px;}
+.dodate span{padding-left: 44px;}
+
+.reminder span{margin-top: 60px !important;padding-left: 44px; position: absolute;}
+.reminderreg{margin-top:90px;margin-left:50px;}
+.areaset{margin-top: 90px;margin-left: 30px;}
+.area span{margin-top: 60px;padding-left: 38px; position: absolute;}
+.regtable{margin-top: 120px;}
+/*camp regis*/
+
+.orgname{width: 260px;}
+.campemailreg{width: 260px;}
+.campdistrict span{margin-left: 50px;}
+.campdistrictreg{margin-left:-35px;}
+.campmob span{margin-left: 15px;}
+.campmobreg{margin-left: -90px;width: 190px;}
+.campaddressreg{width: 460px;}
+.camptime{margin-left: 45px;}
+.camptimeclass{width: 190px;}
+.campven span{margin-left: -50px;}
+.campregdate span{margin-left: -80px;}
+
+/*hospital reg*/
+.hospitalde{height:500px; margin-top: 180px;}
+.hosname{width: 260px;}
+.hosdateregcamp{width: 260px;}
+.hosemailreg{width: 270px;}
+.hosdistrict span{margin-left: 70px;}
+.hosmob span{margin-left: 45px;}
+.hosmobreg{width: 250px;}
+.hosaddressreg{width: 560px;}
+.hosregdate span{padding-left: 60px;}
+
+.adhos{margin-top: 180px;}
+.adcamp{margin-top: 180px;}
+.addon{margin-top: 180px;}
+
+.orgmob span{padding-left: 10px;position: relative;color:#cc0000;margin-left: 60px;}
+.ormob{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 260px;padding-left: 10px;}
+.oremail{width: 360px;}
+.oraddress{width:600px;}
+
+}
+
+
+
+
+
+@media(min-width:992px) and (max-width:1024px)
+{
+	.main_menu{margin-left: 0px;}
+    .main_menu li a{padding:10px 17px;}
+    .main_menu li{margin-top: 25px;}
+    .title{padding-left: 55px;}
+.title li{margin-left: 25px;}
+	.title li a{width: 65px;padding-left: 0px;}
+.title .heading1{font-size: 20px;margin-left: -50px;}
+    .slider{width: 550px;}
+
+
+.contab{margin-top: -300px;position: absolute;width: 627px;margin-left: 290px;height: 300px;}
+.cont{padding-left: 250px;}
+
+
+
+    /*admin*/
+    .adminfoot{margin-left: 30px;}
+
+/*regitration*/
+.rname{width: 260px;}
+.regis{height:700px;}
+.reciname{width: 260px;}
+.gender span{padding-left: 50px;}
+.emailreg{width: 260px;}
+.district span{padding-left: 50px;}
+.addressreg{width: 550px;}
+.group span{padding-left: 172px;}
+
+.dodate span{padding-left: 44px;}
+
+.reminder span{margin-top: 60px !important;padding-left: 44px; position: absolute;}
+.reminderreg{margin-top:90px;margin-left:50px;}
+.areaset{margin-top: 90px;margin-left: 30px;}
+.area span{margin-top: 60px;padding-left: 38px; position: absolute;}
+.regtable{margin-top: 120px;}
+
+/*camp regis*/
+.orgname{width: 360px;}
+.campemailreg{width: 360px;}
+.campdistrict span{margin-left: 165px;}
+.campdistrictreg{margin-left: -35px;}
+.campmob span{margin-left: 85px;}
+.campmobreg{margin-left: -90px;}
+.campaddress{}
+.campaddressreg{width: 660px;}
+.camptime{margin-left: 150px;}
+.camptimeclass{width: 190px;}
+
+/*recipient */
+.setdoc{width: 360px;}
+.sethos{width: 360px;}
+.pname{width: 260px;}
+
+.mr{height:230px;}
+/*hospital reg*/
+
+.hosname{width: 400px;}
+.hosdateregcamp{width: 400px;margin-left:-38px;}
+.hosemailreg{width: 300px;}
+.hosdistrict span{margin-left: 60px;}
+.hosmob span{margin-left: 34px;}
+
+.adhos{margin-top: 180px;}
+.adcamp{margin-top: 180px;}
+.addon{margin-top: 180px;}
+
+/*org*/
+.orgmob span{padding-left: 10px;position: relative;color:#cc0000;margin-left: 60px;}
+.ormob{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 300px;padding-left: 10px;}
+
+}
+
+@media(min-width: 1025px) and (max-height: 1440px)
+{
+	.main_menu{margin-left: 0px;}	
+				.ico{margin-left: 10px;}
+                .main_menu li{margin-top: 25px;}
+				.main_menu li a{padding:10px 35px; }
+				.title{padding-left: 74px;}
+
+
+/*admin*/
+.adminfoot{margin-left: 140px;}
+.adhos{margin-top: 180px;}
+.adcamp{margin-top: 180px;}
+.addon{margin-top: 180px;}
+}

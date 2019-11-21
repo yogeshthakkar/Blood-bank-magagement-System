@@ -1,0 +1,243 @@
+.main-section{
+  width: 300px;
+  position: fixed;
+  right:50px;
+  bottom:-350px;
+  z-index:1;
+}
+.first-section:hover{
+  cursor: pointer;
+}
+.open-more{
+  bottom:70px;
+  transition:2s;
+}
+.border-chat{
+  border:1px solid #2874A6;
+  background-color: #fff;
+  margin: 0px;
+}
+.first-section{
+  background-color:#2874A6;
+}
+.first-section p{
+  color:#fff;
+  margin:0px;
+  padding: 10px 0px;
+}
+.first-section p:hover{
+  color:#fff;
+  cursor: pointer;
+}
+.right-first-section{
+   text-align: right;
+}
+.right-first-section i{
+  color:#fff;
+  font-size: 15px;
+  padding: 12px 3px;
+}
+.right-first-section i:hover{
+  color:#fff;
+}
+.chat-section ul li{
+  list-style: none;
+  margin-top:10px;
+  position: relative;
+}
+.chat-section{
+  overflow-y:scroll;
+  height:300px;
+}
+.chat-section ul{
+  padding: 0px;
+}
+.left-chat img,.right-chat img{
+  width:50px;
+  height:50px;
+  float:left;
+  margin:0px 10px;
+}
+.right-chat img{
+  float:right;
+}
+.second-section{
+  padding: 0px;
+  margin: 0px;
+  background-color: #F3F3F3;
+  height: 300px;
+}
+.left-chat,.right-chat{
+  overflow: hidden;
+}
+.left-chat p,.right-chat p{
+  background-color:#2874A6;
+  padding: 10px;
+  color:#fff;
+  border-radius: 5px; 
+  float:left;
+  width:60%;
+  margin-bottom:20px;
+}
+.left-chat span,.right-chat span{
+  position: absolute;
+  left:70px;
+  top:67px;
+  color:#B7BCC5;
+}
+.right-chat span{
+  left:45px;
+}
+.right-chat p{
+  float:right;
+  background-color: #FFFFFF;
+  color:#2874A6;
+}
+.third-section{
+  border-top: 1px solid #EEEEEE;
+}
+.text-bar input{
+  width:90%;
+  margin-left:-15px;
+  padding:10px 10px;
+  border:1px solid #fff;
+background-color: #fff;
+}
+.text-bar a i{
+  background-color:#2874A6;
+  color:#fff;
+  width:30px;
+  height:30px;
+  padding:7px 0px;
+  border-radius: 50%;
+  text-align: center;
+}
+.left-chat:before{
+  content: " ";
+  position:absolute;
+  top:0px;
+  left:55px;
+  bottom:150px;
+  border:15px solid transparent;
+  border-top-color:#2874A6; 
+}
+.right-chat:before{
+  content: " ";
+  position:absolute;
+  top:0px;
+  right:55px;
+  bottom:150px;
+  border:15px solid transparent;
+  border-top-color:#fff; 
+}
+
+
+
+// Package css
+
+
+
+		.packer{
+				height:auto;
+				text-align:center;
+				width:auto;
+				background-color:#F00;
+				color:#FFF;
+				border-radius:5px;
+				box-shadow:0px 0px 20px red;
+				border:hidden;
+				padding:15px 10px;
+				letter-spacing:0.5px;
+				font-family:"Rubik", sans-serif;
+			}
+
+
+
+ 		.pack_expr{
+				  height:auto;
+				text-align:center;
+				width:auto;
+				background-color:#F00;
+				color:#FFF;
+				border-radius:5px;
+				box-shadow:0px 0px 20px red;
+				border:hidden;
+				padding:15px 10px;
+				letter-spacing:0.5px;
+				font-family:"Rubik", sans-serif;
+				}
+				
+		.pack_expr:hover{height:auto;
+					text-align:center;
+					width:auto;
+					background-color:#FFF;
+					color:#F00;
+					border-radius:5px;
+					box-shadow:0px 0px 20px red;
+					border:hidden;
+					padding:15px 10px;
+					letter-spacing:0.5px;
+					font-family:"Rubik", sans-serif;
+					cursor:help;
+					transition:0.5s;
+				}
+						
+		.pack_sel{
+				height:auto;
+				text-align:center;
+				width:auto;
+				background-color:#390;
+				color:#FFF;
+				border-radius:5px;
+				box-shadow:0px 0px 20px #339900;
+				border:hidden;
+				font-family:"Rubik", sans-serif;
+				letter-spacing:0.5px;
+				padding:12px 10px;
+			}
+			
+			.pack_sel:hover{
+						height:auto;
+						text-align:center;
+						width:auto;
+						background-color:#FFF;
+						color:#060;
+						border-radius:5px;
+						box-shadow:0px 0px 20px #339900;
+						border:hidden;
+						font-family:"Rubik", sans-serif;
+						letter-spacing:0.5px;
+						padding:12px 10px;
+						cursor:help;
+						transition:0.5s;
+					}
+					.container-fluid{padding-top:85px;}
+
+
+          @media(max-width:767px)
+          {
+
+                      .main-section{
+                  width: 300px;
+                  right:5px;
+                }
+              .open-more{
+                  bottom:5px;
+                  transition:2s;
+                }
+          }
+
+          @media(min-width:768px) and (max-width:991px)
+          {
+
+              .main-section{
+                width: 300px;
+
+                right:50px;
+               
+              }
+                .open-more{
+                  bottom:5px;
+                  transition:2s;
+                }
+          }

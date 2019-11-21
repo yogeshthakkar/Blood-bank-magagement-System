@@ -1,0 +1,526 @@
+body {
+  font-family: "Lato", sans-serif;padding:0;margin: 0;
+}
+.header i{font-size: 20px;margin-top: 10px;}
+.header{width: 100%;height: 90px;background-color: #f2dede;z-index: 2 !important;margin-top: -20px;}
+.headright li{list-style-type: none;float: right;line-height: 80px;padding-left: 50px;}
+.headright .adinfo{color: #cc0000;padding-right: 400px;font-size: 25px;padding-top: 10px;}
+.headright li a{color:#cc0000;text-decoration: none;padding-right: 10px;text-align: center;}
+.headright .one{padding-right:170px; }
+.n i{font-size: 20px;}
+.c i{font-size: 20px;}
+.user i{font-size: 30px;padding-top: 20px;padding-right: 90px;}
+.openbtn{color:#cc0000;}
+.msg i{padding-right: 20px;}
+.no i{padding-right: 20px;}
+.one .oneinner{height: 300px;width: 300px;background-color: #fff;position: absolute;left:67% !important;top:0;margin-top: 81px !important;left:-9999;z-index: 5;}
+.oneinner .profile{height: 40px !important;background-color: #000;color: #fff;width: 100px;margin-top: 180px;position: absolute;margin-left: -30px;
+border-radius: 5px;float: left;line-height: 40px;}
+.profile span a{margin-top:-10px; margin-left: -20px;color:#fff;}
+.oneinner .sign{height: 40px !important;background-color: #000;color: #fff;width: 100px;margin-top: 180px;position: absolute;margin-left: 70px !important;
+border-radius: 5px;line-height: 40px;display: block;}
+.sign span a{margin-left: -28px;color: #fff;}
+
+.oneinner .editpwd1{height: 40px !important;background-color: #000;color: #fff;width: 125px;margin-top: 230px;position: absolute;margin-left: 60px;
+  border-radius: 5px;line-height: 40px;display: block;}
+  .editpwd1 span a{margin-left: -28px;color:#fff;}
+ .editpwd1:hover{background-color: #cc0000;color:#fff;} 
+
+
+.profile:hover{background-color: #cc0000;color:#fff;}
+.i{height: 150px;width: 200px;margin-left: -17px;margin-top: 10px;position: absolute;}
+.i img{width: 100%;height: 100%;}
+.sign:hover{background-color: #cc0000;color:#fff;}
+.one .oneinner{display:none;}
+.one li:hover ul.oneinner{cursor: pointer; display: block;transition: 0.5s;}
+.one .comment{height: 350px;width: 400px;background-color: #fff;position: absolute;left:59%;top:0;margin-top: 61px;left:-9999;z-index: 5;overflow: auto;}
+.comment li{width: 100%;height: 60px;}
+.comment .setheight1{height: 60px;background-color:#ecf0f1;overflow-x: scroll;overflow: auto; }
+.comment .setheight2{height: 60px;overflow-x: scroll;overflow: auto;}
+.comment{display:none; }
+.one .noti{height:200px;width: 300px;background-color: #fff;position: absolute;left: 71%;top:0;left: -9999;z-index: 5;overflow: auto;margin-top: 61px;
+display: none;}
+.noti li:nth-child(odd){height: 60px;background-color: #ecf0f1;width: 100%;}
+.noti li:nth-child(even){height: 60px;background-color: #fff;width: 100%;}
+.one li a:hover .oneinner{display: block;transition: 0.5s;}
+.one .n:hover .noti{display: block;transition: 1s;}
+.one .c:hover .comment{display: block;transition: 0.5s;}
+
+/*===========*/
+
+.sidebar  a{
+  padding: 6px 8px 6px 16px;text-decoration: none;font-size: 16px;color: #000;
+  display: block;border: none; background: none;width: 100%;text-align: left;outline: none;
+}
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;text-decoration: none;font-size: 16px;color: #fff;
+  display: block;border: none; background: none;width: 100%;text-align: left;outline: none;
+}
+
+
+.main{margin-left: 300px;}
+.active {background-color: #cc0000;color: white;}
+.dropdown-container {
+  display: none;background-color: #cc0000;padding-left: 8px;text-decoration: none;
+  }
+.dropdown-container li{list-style-type: none;}
+.dropdown-container li a{color:#fff;text-decoration: none;}
+.fa-caret-down {
+  float: right;padding-right: 8px;
+}
+.sidebar {height: 100%;width: 350px;display: none; position: fixed; z-index: 10;  top: 0;left: 0;background-color: #111;   overflow-x: hidden; transition: 0.5s;
+}
+.setmenu{padding-top: 120px;}
+
+.sidebar a:hover {
+  color: #f1f1f1;}
+
+.sidebar .closebtn 
+{
+  position: absolute;top: 0;left:10%;font-size: 36px;padding-left: 150px;color:#fff;}
+.fa-times{padding-left: 260px;padding-top: 10px;}
+.openbtn {  font-size: 20px;cursor: pointer; background-color: #111;color:#000;border: none;}
+.fa-bars{position: absolute;padding-top: 27px;padding-left: 30px;}
+
+/*sidebar*/
+
+/*edit profile*/
+.menu{height: 130px;width: 430px;background-color:#F0FFFF;margin-left: 36%;margin-top: -590px;border-radius: 10px;border:1px solid #cc0000;}
+.openprofile{width: 60%;height: 500px;background-color: #000;position: absolute;top:20%;left:24%;z-index: 5;border:5px solid #0066ff;display: none;}
+
+.setproimage{padding-left: 20px;padding-top: 100px;float: left;width: 300px;}
+.setproimage li{list-style-type: none;;text-decoration: none;}
+.setproimage li a{display: block;height:40px;width: 150px;background-color: #cc0000;color:#fff;text-decoration: none;text-align: center;
+    padding-top: 12px;margin-top: 40px;margin-left: 10px;border-radius: 5px;list-style-type: none;}
+.setprocon{color: #fff;}
+.setprocon tr{width: 200px;background-color: #cc0000;}
+.setprocon tr td{padding: 15px 20px 20px 20px;width: 210px; }
+#setfaicon{color: #fff;font-size: 30px;position: absolute;margin-left: -220px;margin-top: -100px;}
+
+
+.campde{height: 420px;width: 100%;background-color: #f2dede;margin-top: 50px;}
+.odivc{height:100px;padding-top: 20px;}
+.sdivc{height:100px;padding-top: 20px;}
+.tdivc{height:130px;padding-top: 10px;}
+.fidivc{height:80px;padding-top: 20px;}
+.campname span{padding-left: 40px;position: relative;color:#cc0000;}
+.orgname{height: 35px;position: absolute;margin-top: 30px;margin-left: -110px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.campven span{padding-left: 10px;position: relative; color:#cc0000;}
+.campvendate{height: 35px;position: absolute;margin-top: 30px;margin-left: -88px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campregdate span{padding-left: 10px;position: relative;color:#cc0000;}
+.dateregcamp{height: 35px;position: absolute;margin-top: 30px;margin-left: -133px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campemail span{padding-left:37px;position: relative;color:#cc0000;}
+.campemailreg{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -87px;padding-left: 10px;}
+.campdistrictid span{padding-left: 10px;position: relative;color:#cc0000;}
+.campdistrictregid{height: 35px;position: absolute;margin-top: 30px;margin-left: -9px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campmob span{padding-left: 10px;position: relative;color:#cc0000;}
+.campmobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campaddress span{padding-left: 43px;position: relative;color:#cc0000;}
+.campaddressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -150px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.camptime span{padding-left: 106px;position: relative;color:#cc0000;}
+.camptimeclass{height: 35px;position: absolute;margin-top: 30px;margin-left: -80px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.campregtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+.campmob1 span{padding-left: 10px;position: relative;color:#cc0000;}
+.campmobreg1{height: 35px;position: absolute;margin-top: 30px;margin-left: -89px;border-radius: 3px;width: 200px;padding-left: 10px;}
+
+
+
+
+
+
+#content1{width:100%;position: fixed; height: 100%;background-color: #fff;transition: 0.5s;}
+#content2{margin-left: 250px; position: absolute;width: 100%;height: 800px;transition: 0.5s;}
+/*content*/
+
+
+
+
+
+
+
+.table-wrapper {
+        background: #fff;
+        padding: 20px 25px;
+        margin: 30px auto;
+        border-radius: 3px;
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    }
+    .table-title {
+        color: #fff;
+        background: #40b2cd;        
+        padding: 16px 25px;
+        margin: -20px -25px 10px;
+        border-radius: 3px 3px 0 0;
+    }
+    .table-title h2 {
+        margin: 5px 0 0;
+        font-size: 24px;
+    }
+    .search-box {
+        position: relative;
+        float: right;
+       
+        margin-top: -30px;
+    }
+    .search-box .input-group {
+        min-width: 300px;
+        position: absolute;
+        right: 0;
+    }
+    .search-box .input-group-addon, .search-box input {
+        border-color: #ddd;
+        border-radius: 0;
+    }   
+    .search-box input {
+        height: 34px;
+        padding-right: 35px;
+        background: #f4fcfd;
+        border: none;
+        border-radius: 2px !important;
+    }
+    .search-box input:focus {
+        background: #fff;
+    }
+    .search-box input::placeholder {
+        font-style: italic;
+    }
+    .search-box .input-group-addon {
+        min-width: 35px;
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        padding: 6px 0;
+    }
+    .search-box i {
+        color: #a0a5b1;
+        font-size: 19px;
+        position: relative;
+        top: 2px;
+    }
+    table.table {
+        table-layout: fixed;
+        margin-top: 15px;
+    }
+    table.table tr th, table.table tr td {
+        border-color: #e9e9e9;
+    }
+    table.table th i {
+        font-size: 13px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+  table.table th:first-child {
+        width: 60px;
+    }
+    table.table th:last-child {
+        width: 120px;
+    }
+    table.table td a {
+        color: #a0a5b1;
+        display: inline-block;
+        margin: 0 5px;
+    }
+    table.table td a.view {
+        color: #03A9F4;
+    }
+    table.table td a.edit {
+        color: #FFC107;
+    }
+    table.table td a.delete {
+        color: #E34724;
+    }
+    table.table td i {
+        font-size: 19px;
+    }  
+    #set{height: 400px;width: 100%;overflow: hidden;overflow: scroll;overflow-x: scroll;}
+    #sc th{overflow: hidden;width: 30%;}
+    #sc td{overflow: hidden;}
+    .table-wrapper{overflow-x: hidden;overflow-x: scroll;}
+
+/*edit profile*/
+.regis{height: 520px;width: 100%;background-color: #f2dede;margin-top: 40px;}
+.odiv{height:100px;padding-top: 20px;}
+.sdiv{height:100px;padding-top: 20px;}
+.tdiv{height:130px;padding-top: 10px;}
+.fdiv{height:100px;padding-top: 20px;}
+.fidiv{height:80px;padding-top: 20px;}
+.donorname span{padding-left: 40px;position: relative;color:#cc0000;}
+.rname{height: 35px;position: absolute;margin-top: 30px;margin-left: -118px;border-radius: 3px;width: 460px;padding-left: 10px;}
+.gender span{padding-left: 10px;position: relative; color:#cc0000;}
+.radioreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -58px;border-radius: 3px;width: 200px;}
+.birth span{padding-left: 10px;position: relative;color:#cc0000;}
+.datereg{height: 35px;position: absolute;margin-top: 30px;margin-left: -103px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.email span{padding-left: 40px;position: relative;color:#cc0000;}
+.emailreg{height: 35px;position: absolute;margin-top: 30px;border-radius: 3px;width: 460px;margin-left: -40px;padding-left: 10px;}
+.district span{padding-left: 10px;position: relative;color:#cc0000;}
+.districtreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -30px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mob span{padding-left: 10px;position: relative;color:#cc0000;}
+.mobreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -75px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.address span{padding-left: 43px;position: relative;color:#cc0000;}
+.addressreg{height: 75px;position: absolute;margin-top: 30px;margin-left: -65px;border-radius: 3px;width: 750px;padding-left: 10px;}
+.group span{padding-left: 104px;position: relative;color:#cc0000;}
+.groupreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -100px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.dodate span{padding-left: 24px;position: relative;color:#cc0000;}
+.donationreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -165px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.mdono span{padding-left: 44px;position: relative;color:#cc0000;}
+.optionreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -160px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.reminder span{padding-left: 44px;position: relative;color:#cc0000;}
+.reminderreg{height: 35px;position: absolute;margin-top: 30px;margin-left: -140px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.regtable{height: 40px;width: 200px;border-radius: 5px;text-decoration: none;background-color: #cc0000;color:#fff;}
+.footerregistration{height: 50px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+
+.areaset{height:35px;position: absolute;margin-top: 30px;margin-left: -40px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.area span{padding-left: 14px;position: relative;color:#cc0000;}
+
+.oldpass{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 150px;border-color: #f2dede;}
+.conpass{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 150px;border-color: #f2dede;}
+.newpass{width: 300px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 150px;border-color: #f2dede;}
+.ad{height: 300px;width: 100%;background-color: #ccc;margin-top: 90px;border:1px solid #F2DEDE;background-color: #fff;border-radius: 10px;}
+.admin{height: 60px;background-color: #F2DEDE;width: 100%;}
+.admin span{padding-left: 0px;color:#cc0000;font-size: 20px;}
+.ad span{margin-left: 100px;position: absolute;color:#cc0000;}
+.ad input{margin-left: 260px;position: absolute;}
+.passbtn{padding-left: 0px;margin-left: 100px;margin-top: 10px;height:30px;width:180px;background-color:#cc0000;color:#fff;outline: none;border-radius: 4px;}
+
+
+@media(max-width: 767px)
+{
+  .headright li{padding-left: 30px;}
+  .sidebar a{font-size: 14px;}
+.headright .one{padding-right:50px; }
+
+.headright .adinfo{display: none;}
+.headright .one{padding-right: 5px;}
+.user i{padding-right: 20px;}
+.one .oneinner{width: 210px;left:25% !important;margin-top: 81px;}
+.profile span a{margin-left: -14px;}
+.sign span a{margin-left: -25px;}
+.i{margin-left: -19px;width: 150px;}
+.i img{width: 100%;height: 100%;}
+.oneinner .profile{margin-left: -20px;width: 70px;}
+.oneinner .sign{margin-left: 40px !important;width: 70px;}
+.one .comment{left:17%;height: 240px;width: 230px;margin-top: 61px;}
+.comment .setheight1{width: 100%;}
+.one .noti{left: 20%;padding-left: -20px;width: 230px;height: 240px;margin-top: 61px;}
+ #set{width: 300px;height: 300px;overflow: hidden;overflow-x: scroll;}
+   #sc th{width: 200px;}
+    #sc td{overflow: hidden;}
+    .search-box .input-group {
+        min-width: 280px;
+        margin-top: 30px;
+       margin-right: -4px;
+    }
+
+
+
+.oldpass{width: 260px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 10px;border-color: #f2dede;position: absolute;}
+.conpass{width: 260px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 10px;border-color: #f2dede;position: absolute;}
+.newpass{width: 260px;padding-left: 5px; border-radius: 3px;height: 30px;margin-left: 10px;border-color: #f2dede;position: absolute;}
+.ad{height: 300px;width: 100%;background-color: #ccc;margin-top: 90px;border:1px solid #F2DEDE;background-color: #fff;border-radius: 10px;}
+.admin{height: 60px;background-color: #F2DEDE;width: 100%;}
+.admin span{padding-left: 0px;color:#cc0000;font-size: 20px;}
+.ad span{margin-left: 10px;position: absolute;color:#cc0000;}
+.ad input{margin-left: 10px;position: absolute;}
+.passbtn{padding-left: 0px;margin-left: 100px;margin-top: 10px;height:30px;width:180px;background-color:#cc0000;color:#fff;outline: none;border-radius: 4px;}
+
+
+
+/*edit profile*/
+.regis{margin-top: 50px;height: 1200px;}
+.odiv{height:250px;padding-top: 10px;}
+.sdiv{height:250px;padding-top: 5px;}
+.tdiv{height:250px;padding-top: 5px;}
+.fdiv{height:250px;padding-top: 5px;}
+.fidiv{height:80px;padding-top: 10px;}
+.rname{width: 200px;}
+.donorname span{padding-left: 10px;position: relative;}
+.rname{width: 260px;}
+.gender span{padding-left: 10px;position: relative;margin-top: 60px !important;position: absolute;}
+.radioreg{margin-top: 85px;margin-left: 8px;width: 260px;}
+.birth span{padding-left: 10px;position:absolute; margin-top: 140px !important;}
+.datereg{height: 35px;position: absolute;margin-top: 165px;margin-left: 10px;width: 260px;}
+.email span{padding-left: 10px;position: relative;}
+.emailreg{position: absolute;margin-top: 25px;border-radius: 3px;width: 260px;}
+.district span{padding-left: 10px;position:absolute;margin-top: 65px !important;}
+.districtreg{position: absolute;margin-top: 89px;margin-left: 8px;width: 260px;}
+.mob span{position: absolute;margin-top: 150px;}
+.mobreg{position: absolute;margin-top: 180px;width: 260px;padding-left: 10px;margin-left: 8px;}
+.address span{padding-left: 10px;position: relative;color:#cc0000;}
+.addressreg{height: 85px;position:absolute;margin-top: 30px;margin-left: -65px;width: 260px;}
+.group span{padding-left: 10px;position:absolute;margin-top: 100px !important;}
+.groupreg{height: 35px;position: absolute;margin-top: 130px;margin-left: 12px;border-radius: 3px;width: 200px;padding-left: 10px;}
+.dodate span{padding-left: 10px;position: relative;}
+.donationreg{position: absolute;margin-top: 30px;margin-left: -165px;width: 260px;}
+.mdono span{padding-left: 10px;position: absolute;margin-top: 60px !important;}
+.optionreg{position: absolute;margin-top: 90px;margin-left: 12px;width: 260px;}
+.reminder span{padding-left: 10px;position: absolute;margin-top: 135px !important;}
+.reminderreg{position: absolute;margin-top: 160px;margin-left: 12px;width: 260px;}
+.regtable{width: 260px;margin-top: 120px;}
+.footerregistration{height: 90px;margin-top: 20px;background-color: #f2dede;width: 100%;padding-top: 18px;color:#cc0000;}
+.areaset{margin-top: 240px;margin-left: 10px;width: 260px;}
+.area span{margin-top: 210px;padding-left: 14px; position: absolute;}
+
+.openprofile{width: 92%;left:4%;z-index: 10;}
+#setfaicon{margin-left: -260px;}
+
+
+.oneinner .editpwd1{margin-left: 10px;}
+  .editpwd1 span a{margin-left: -10px;}
+
+
+/*add camp*/
+.campde{margin-top: 50px;height: 750px;}
+.campname span{padding-left: 10px;position: relative;}
+.orgname{width: 260px;}
+.campven span{padding-left: 10px;position: absolute;margin-top: 120px !important;position: absolute;}
+.campvendate{margin-top:145px;margin-left: 10px;width: 260px;}
+.campregdate span{padding-left: 10px;position:absolute; margin-top: 50px !important;}
+.dateregcamp{height: 35px;position: absolute;margin-top: 80px;margin-left: 10px;width: 260px;}
+.campemail span{padding-left: 10px;position: absolute;margin-top:120px !important; }
+.campemailreg{position: absolute;margin-top: 148px;border-radius: 3px;width: 260px;margin-left: 10px;}
+.campdistrict span{padding-left: 10px;position:absolute;margin-top: 195px !important;}
+.campdistrictreg{position: absolute;margin-top: 220px;margin-left: 8px;width: 260px;}
+.campmob span{position: absolute;margin-top: 270px;}
+.campmobreg{position: absolute;margin-top: 295px;width: 260px;padding-left: 10px;margin-left: 8px;}
+.campaddress span{padding-left: 10px;position: absolute;color:#cc0000;margin-top: 260px;}
+.campaddressreg{height: 85px;position:absolute;margin-top: 290px;margin-left: 10px;width: 260px;}
+.camptime span{margin-top: 370px;position: absolute;margin-left: -95px;}
+.camptimeclass{position: absolute;margin-top:400px;margin-left: 15px;width: 260px; }
+.campregtable{width: 260px;margin-top: 340px;}
+.campmob1 span{position: absolute;margin-top: 270px;}
+.campmobreg1{position: absolute;margin-top: 295px;width: 260px;padding-left: 10px;margin-left: 8px;}
+.campdistrictid span{padding-left: 10px;position:absolute;margin-top: 195px !important;}
+.campdistrictregid{position: absolute;margin-top: 220px;margin-left: 8px;width: 260px;}
+
+
+
+
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+
+  .headright li{padding-left: 10px;}
+.headright .one{padding-right:20px; }
+
+.headright .adinfo{padding-right: 80px;font-size: 20px;}
+
+.one .oneinner{width: 230px;left:68%;margin-top: 81px;}
+.profile span a{margin-left: 10px;}
+.user i{padding-right: 20px;}
+.sign span a{margin-left: 1px;}
+.i{margin-left: -30px;}
+.i img{width: 100%;height: 100%;}
+.oneinner .profile{margin-left: -20px;width: 80px;}
+.oneinner .sign{margin-left: 40px !important;width: 80px;}
+.one .comment{left:40%;height: 200px;margin-top: 61px;}
+.comment .setheight1{width: 100%;}
+.one .noti{left: 58%;padding-left: -20px;margin-top: 61px;}
+#setfaicon{margin-left: -260px;}
+  .oneinner .editpwd1{margin-left: 20px;
+  }
+  .editpwd1 span a{margin-left: 8px;}
+.dodate span{padding-left: 44px;}
+
+
+/*edit profile*/
+.regis{height: 680px;margin-top: 40px;}
+.rname{width: 200px;}
+.gender span{padding-left: 20px;}
+.district span{padding-left: 20px;}
+.emailreg{width: 200px;}
+.addressreg{width: 450px;}
+.group span{padding-left: 142px;}
+.mdono span{padding-left: 20px;}
+.reminder span{padding-left: 14px;}
+.reminder span{margin-top: 60px !important;padding-left: 44px; position: absolute;}
+.reminderreg{margin-top:90px;margin-left:50px;}
+.areaset{margin-top: 90px;margin-left: 30px;}
+.area span{margin-top: 60px;padding-left: 38px; position: absolute;}
+.regtable{margin-top: 120px;}
+/**/
+.sidebar{width: 250px;}
+
+/*addcamp */
+.orgname{width: 260px;}
+.campemailreg{width: 260px;}
+.campdistrictid span{margin-left: 80px;}
+.campdistrictregid{margin-left:-35px;}
+.campmob span{margin-left: 105px;}
+.campmobreg{margin-left: -100px;width: 190px;}
+.campaddressreg{width: 460px;}
+.camptime{margin-left: 45px;}
+.camptimeclass{width: 190px;}
+.campven span{margin-left: -50px;}
+.campregdate span{margin-left: -80px;}
+.campmob1 span{margin-left: 75px;}
+.campmobreg1{margin-left: -150px;width: 190px;}
+
+}
+@media(min-width: 992px) and (max-width: 1024px)
+{
+
+  .headright li{padding-left: 50px;}
+
+.headright .one{padding-right:50px; }
+.headright .adinfo{padding-right: 130px;font-size: 20px;}
+
+.one .oneinner{width: 310px;left:61%;margin-top: 81px;}
+.profile span a{margin-top:-10px; margin-left: -20px;}
+.sign span a{margin-left: -28px;}
+.i{margin-left: -10px;height: 150px;width: 200px !important;margin-top: 0px;}
+.i img{width: 100%;height: 100%;}
+.oneinner .profile{margin-left: -20px;width: 100px;}
+.oneinner .sign{margin-left: 150px;width: 100px;}
+.one .comment{width: 300px;left:65%;margin-top: 61px;}
+.one .noti{left:70%;margin-top: 61px;}
+
+
+/*edit profile*/
+.regis{height: 650px;}
+.rname{width: 260px;}
+.gender span{padding-left: 50px;}
+.emailreg{width: 260px;}
+.district span{padding-left: 50px;}
+.addressreg{width: 550px;}
+.group span{padding-left: 172px;}
+.mdono span{padding-left: 44px;}
+.reminder span{margin-top: 60px !important;padding-left: 44px; position: absolute;}
+.reminderreg{margin-top:90px;margin-left:50px;}
+.areaset{margin-top: 90px;margin-left: 50px;}
+.area span{margin-top: 60px;padding-left: 48px; position: absolute;}
+.dodate span{padding-left: 44px;}
+
+.regtable{margin-top: 120px;}
+
+/*add camp*/
+.orgname{width: 360px;}
+.campemailreg{width: 360px;}
+.campdistrictid span{margin-left: 180px !important;}
+.campdistrictregid{margin-left: -13px;}
+.campmob span{margin-left: 175px;}
+.campmobreg{margin-left: -100px;width: 200px;}
+.campmob1 span{margin-left: 95px;}
+.campmobreg1{margin-left: -100px;width: 200px;}
+.campaddress{}
+.campaddressreg{width: 660px;}
+.camptime{margin-left: 150px;}
+.camptimeclass{width: 190px;}
+
+
+}
+@media(min-width: 1025px) and (max-width: 1440px)
+{
+  .headright .adinfo{padding-right: 200px;}
+.profile span a{margin-top:-10px; margin-left: -20px;}
+.sign span a{margin-left: -28px;}
+.oneinner .profile{margin-left: -20px;width: 100px;}
+.oneinner .sign{margin-left: 135px;width: 100px;}
+.i{margin-left: -10px;height: 150px;width: 200px !important;margin-top: 0px;}
+.i img{width: 100%;height: 100%;}
+.one .oneinner{left:53%;margin-top: 61px;}
+.one .comment{left:57%;margin-top: 61px;}
+.one .noti{left:69%;margin-top: 61px;}
+ .search-box{margin-top: 0px;}
+}
